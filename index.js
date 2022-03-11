@@ -12,13 +12,13 @@ const init = function () {
   ];
 
   const el = document.querySelector(".scrambled");
-  const fx = new TextScramble(el);
+  const ts = new TextScramble(el);
 
   let counter = 0;
 
   const next = () => {
-    fx.setText(phrases[counter]).then(() => {
-      setTimeout(next, 800);
+    ts.setText(phrases[counter]).then(() => {
+      setTimeout(next, 2500);
     });
     counter = (counter + 1) % phrases.length;
   };

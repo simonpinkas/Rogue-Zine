@@ -9,6 +9,7 @@ Le premier volume traitera des Credit Suisse Leaks, depuis la Suisse. Créé dan
 - [Vite](#vite)
 - [Composants](#composants)
 - [Ajouter des pages](#ajouter-des-pages)
+- [Reset CSS](#reset-css)
 
 ## Pré-requis
 
@@ -29,8 +30,6 @@ npm run dev
 ```
 
 4. Ouvrez votre navigateur sur [localhost:3000](http://localhost:3000)
-
-https://piccalil.li/blog/a-modern-css-reset/
 
 ## Vite
 
@@ -71,9 +70,19 @@ Si vous souhaitez ajouter des pages à votre site, suivez la structure existante
 1. Créez un dossier qui correspond au nom de votre page.
 2. Créez un fichier index.html dans ce dossier.
 3. Créez un fichier javascript dans ce dossier et importez-y les feuilles de style.
+
+```javascript
+import "../css/reset.css";
+import "../css/style.css";
+```
+
 4. Faites le lien entre le html et le javascript
 
-il faudra informer Vite de leur existence. Pour ce faire, éditez le le fichier **vite.config.js** et ajoutez une page à l'objet input:
+```html
+<script type="module" src="./nom-du-fichier.js"></script>
+```
+
+5. Informez Vite de l'existence de cette page en éditant le fichier **vite.config.js**
 
 ```javascript
 module.exports = defineConfig({
@@ -89,3 +98,7 @@ module.exports = defineConfig({
   }
 });
 ```
+
+## Reset CSS
+
+Ce template contient un fichier **reset.css**. Le but de ce document est de réécrire certains comportements par défaut de nos navigateurs. Il existe de nombreux types de reset. J'ai utilisé le suivant: [https://piccalil.li/blog/a-modern-css-reset/](https://piccalil.li/blog/a-modern-css-reset/)

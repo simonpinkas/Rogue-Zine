@@ -4,6 +4,8 @@ Publication underground traitants de thèmes "interdits" dans certains pays. Le 
 
 Le premier volume traitera des Credit Suisse Leaks, depuis la Suisse. Créé dans le cadre du LAB GR+ID à l'Eracom, semestre de printemps 2022.
 
+Le site devrait être testé sur Firefox, car c'est sur cette techonlogie qu'est basé le navigateur Tor.
+
 - [Pré-requis](#pré-requis)
 - [Installation](#installation)
 - [Vite](#vite)

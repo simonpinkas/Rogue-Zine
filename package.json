@@ -10,5 +10,7 @@
   "devDependencies": {
     "vite": "^2.8.0"
   },
-  "dependencies": {}
+  "dependencies": {
+    "lodash": "^4.17.21"
+  }
 }

@@ -31,6 +31,11 @@
 body {
   background-color: var(--bg-color);
   color: var(--text-color);
+  overflow-x: hidden;
+}
+
+p span {
+  position: relative;
 }
 
 .scrambled {
@@ -63,6 +68,17 @@ body {
   font-family: monospace;
   font-weight: 800;
   word-break: break-all;
+}
+
+.draggable {
+  background-color: blue;
+  cursor: move;
+  height: 28px;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 2;
 }
 
 @media all and (max-width: 1200px) {

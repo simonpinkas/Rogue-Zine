@@ -53,7 +53,7 @@ Le but de cette de démarche est d'éviter de charger du JavaScript inutile par 
 
 Du code qui serait partagé entre les pages peuvent être implémentés dans des fichiers séparés qui seraient ensuite importés là où c'est nécessaire. Référez-vous à la documentation de l'instruction [export](https://developer.mozilla.org/fr/docs/web/javascript/reference/statements/export). Ces composants réutilisables seront stockés dans le dossier **components**.
 
-Pour pouvoir importer une fonction dans un autre fichier, il faut d'abord dire que celle-ci est exportable, puis l'importer dans le fichier où vous souhaitez l'utiliser:
+Pour pouvoir importer une fonction dans un autre fichier, il faut d'abord dire que celle-ci soit exportable, puis l'importer dans le fichier où vous souhaitez l'utiliser:
 
 ```javascript
 // Dans un fichier components/truc.js

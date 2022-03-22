@@ -1,0 +1,58 @@
+body {
+  margin: 0;
+  padding: 0;
+  background-color: #ffff;
+}
+
+.about {
+  background-color: rgb(0, 255, 0);
+  height: 2rem;
+  width: 4rem;
+  top: 0;
+  left: 0;
+  position: fixed;
+  z-index: 500;
+}
+.arch {
+  background-color: rgb(212, 0, 255);
+  height: 2rem;
+  width: 4rem;
+  bottom: 0;
+  right: 0;
+  position: fixed;
+  z-index: 500;
+}
+.accueil {
+  background-color: rgb(119, 140, 255);
+  height: 2rem;
+  width: 4rem;
+  top: 0;
+  right: 0;
+  position: fixed;
+  z-index: 500;
+}
+.soutien {
+  background-color: red;
+  height: 2rem;
+  width: 4rem;
+  bottom: 0;
+  left: 0;
+  position: fixed;
+  z-index: 500;
+}
+.mega {
+  position: absolute;
+  display: flex;
+  width: 100vw;
+
+  background-color: rgb(87, 87, 87);
+}
+.titrarticle {
+  position: relative;
+  width: 100vw;
+  height: 10vh;
+  background-color: beige;
+}
+.artitre {
+  color: black;
+}

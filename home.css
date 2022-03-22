@@ -1,0 +1,62 @@
+* {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  background-color: #ffffff;
+}
+
+/* style div */
+.conthome {
+  z-index: 1;
+  top: 100vh;
+}
+
+.titabces {
+  background-color: rgb(202, 191, 38);
+  z-index: 1;
+  position: fixed;
+}
+
+.titcrdit {
+  background-color: rgb(30, 139, 105);
+  z-index: 1;
+  position: fixed;
+}
+
+.titsuisse {
+  background-color: rgb(228, 11, 11);
+  z-index: 1;
+  position: fixed;
+}
+
+/* style titres */
+.titreh {
+  font-family: Arial, Helvetica, sans-serif;
+  color: #000000;
+  margin: 0;
+  padding: 0;
+  font-size: 26rem;
+}
+
+.titrec {
+  font-family: Arial, Helvetica, sans-serif;
+  color: #ffffff;
+  margin: 0;
+  padding: 0;
+  font-size: 26rem;
+}
+
+.titres {
+  font-family: Arial, Helvetica, sans-serif;
+  color: #000000;
+  margin: 0;
+  padding: 0;
+  font-size: 26rem;
+}
+
+/* style images */
+
+/* style textes */
